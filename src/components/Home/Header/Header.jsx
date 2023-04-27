@@ -15,7 +15,6 @@ const Header = () => {
                     Match Highlights: Germany vs Spain — as it happened   !   Match Highlights: Germany vs Spain as...
                 </marquee>
             </div>
-
             <nav className='flex justify-between items-center mt-4'>
                 <div className='text-center mx-auto'>
                     <ul className='inline-flex text-slate-600'>
@@ -29,9 +28,6 @@ const Header = () => {
                     <button className='bg-slate-600 text-white font-base py-1 px-7 ml-3'>Login</button>
                 </div>
             </nav>
-
-
-
         </div>
     );
 };
