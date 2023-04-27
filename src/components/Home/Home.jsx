@@ -3,7 +3,7 @@ import Header from './pages/Header/Header';
 
 const Home = () => {
     return (
-        <div>
+        <div className='my-container'>
            <Header></Header>
         </div>
     );

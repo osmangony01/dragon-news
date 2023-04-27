@@ -71,3 +71,8 @@ button:focus-visible {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.my-container{
+  @apply mx-36 my-3
+}
