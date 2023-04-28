@@ -76,3 +76,7 @@ button:focus-visible {
 .my-container{
   @apply mx-36 my-3
 }
+
+.input-control{
+  @apply w-full bg-slate-100 box-border py-1.5 px-3 rounded  hover:border-slate-400 border-transparent border-2 outline-none
+}
