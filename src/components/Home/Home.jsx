@@ -37,8 +37,8 @@ const Home = () => {
                         </div>
                     </div>
                     <div className='flex'>
-                        <img src="./icon/bookmark.svg" alt="" />
-                        <img src="./icon/share.svg" alt="" />
+                        <img src="./icon/bookmark.svg" alt="bookmark" />
+                        <img src="./icon/share.svg" alt="share" />
                     </div>
                 </div>
                 <div className='p-4'>
