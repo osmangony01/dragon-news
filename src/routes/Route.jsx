@@ -7,6 +7,7 @@ import Login from "../components/Login/Login";
 import NewsLayout from "../components/NewsLayout/NewsLayout";
 import News from "../components/News/News";
 import categoryDataLoader from "../loader/LoadCategoryNews";
+import loadNews from "../loader/LoadNews";
 
 
 const route = createBrowserRouter([
@@ -40,6 +41,7 @@ const route = createBrowserRouter([
             {
                 path: ":id",
                 element: <News></News>,
+                loader: loadNews
             },
         ]
     },

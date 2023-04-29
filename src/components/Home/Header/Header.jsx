@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <div>
             <div className='text-center'>
-                <img className='py-3 mx-auto' src="./logo.png" alt="" />
+                <img className='py-3 mx-auto' src="/logo.png" alt="" />
                 <p>Journalism Without Fear or Favour</p>
                 <h3 className='text-lg font-semibold pt-3'>{moment().format("dddd, MMMM D, YYYY")}</h3>
             </div>
@@ -24,7 +24,7 @@ const Header = () => {
                     </ul> 
                 </div>
                 <div className='flex items-center'>
-                    <img className='' src="./profile-logo.svg" alt="asdf" />
+                    <img className='' src="/profile-logo.svg" alt="asdf" />
                     <button className='bg-slate-600 text-white font-base py-1 px-7 ml-3'>Login</button>
                 </div>
             </nav>
