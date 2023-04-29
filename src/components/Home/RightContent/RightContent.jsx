@@ -1,5 +1,5 @@
 import React from 'react';
-import bgImage from "../../../../public/images/bg.png"
+
 
 const RightContent = () => {
     return (

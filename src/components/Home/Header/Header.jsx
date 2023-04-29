@@ -1,5 +1,6 @@
 import React from 'react';
 import moment from 'moment';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
@@ -18,14 +19,14 @@ const Header = () => {
             <nav className='flex justify-between items-center mt-4'>
                 <div className='text-center mx-auto'>
                     <ul className='inline-flex text-slate-600'>
-                        <li><a className="pl-3" href="#">About</a></li>
-                        <li><a className="pl-3" href="#">Career</a></li>
-                        <li><a className="pl-3"  href="#">Home</a></li>
+                        <li><Link className="pl-3"  to="/">Home</Link></li>
+                        <li><Link className="pl-3" to="#">Career</Link></li>
+                        <li><Link className="pl-3" to="#">About</Link></li>
                     </ul> 
                 </div>
                 <div className='flex items-center'>
                     <img className='' src="/profile-logo.svg" alt="asdf" />
-                    <button className='bg-slate-600 text-white font-base py-1 px-7 ml-3'>Login</button>
+                    <Link to="/login"><button className='bg-slate-600 text-white font-base py-1 px-7 ml-3'>Login</button></Link>
                 </div>
             </nav>
         </div>
