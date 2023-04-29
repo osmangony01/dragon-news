@@ -80,3 +80,7 @@ button:focus-visible {
 .input-control{
   @apply w-full bg-slate-100 box-border py-1.5 px-3 rounded  hover:border-slate-400 border-transparent border-2 outline-none
 }
+
+.feature1{
+  background-image: url('../public/images/bg.png');
+}
