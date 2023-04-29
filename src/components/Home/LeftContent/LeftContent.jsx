@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
+import HomeEditorsInsights from "../../EditorsInsights/HomeEditorsInsights";
+
 const LeftContent = () => {
     const [categories, setCategories] = useState([]);
 
@@ -20,6 +22,7 @@ const LeftContent = () => {
                     <Link to={`/category/${category.id}`} className='no-underline pl-6'>{category.name}</Link>
                 </p>)
             }
+            <HomeEditorsInsights></HomeEditorsInsights>
         </>
     );
 };

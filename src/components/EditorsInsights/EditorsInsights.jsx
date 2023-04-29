@@ -3,7 +3,7 @@ import React from 'react';
 import first from '../../../public/images/editorsInsight1.png';
 import second from '../../../public/images/editorsInsight2.png';
 import third from '../../../public/images/editorsInsight3.png';
-import { FaCalculator, FaCalendar, FaCalendarAlt } from 'react-icons/fa';
+import { FaCalendarAlt } from 'react-icons/fa';
 
 const EditorsInsights = () => {
     return (
